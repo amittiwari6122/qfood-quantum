@@ -1,0 +1,11 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+numpy>=1.26
+scipy>=1.11
+qiskit>=1.2
+qiskit-aer>=0.15
+# Optional - only for QUANTUM_MODE=cloud
+# qiskit-ibm-runtime>=0.30
+pytest>=8
+httpx>=0.27
